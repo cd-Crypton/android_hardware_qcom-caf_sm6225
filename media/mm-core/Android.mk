@@ -1,6 +1,6 @@
 ifneq ($(BUILD_TINY_ANDROID),true)
 
-LOCAL_PATH:= $(call my-dir)
+LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 OMXCORE_CFLAGS := -g -O3 -DVERBOSE
@@ -38,7 +38,7 @@ endif
 #===============================================================================
 
 LOCAL_C_INCLUDES        := $(LOCAL_PATH)/src/common
-LOCAL_C_INCLUDES        += $(TOP)/hardware/qcom/media/libplatformconfig
+LOCAL_C_INCLUDES        += $(TOP)/hardware/qcom-caf/sm6225/media/libplatformconfig
 
 LOCAL_HEADER_LIBRARIES := \
         libutils_headers \
