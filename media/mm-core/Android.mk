@@ -38,7 +38,7 @@ endif
 #===============================================================================
 
 LOCAL_C_INCLUDES        := $(LOCAL_PATH)/src/common
-LOCAL_C_INCLUDES        += $(TOP)/hardware/qcom-caf/sm6225/media/libplatformconfig
+LOCAL_C_INCLUDES        += $(TOP)/hardware/qcom/sm6225/media/libplatformconfig
 
 LOCAL_HEADER_LIBRARIES := \
         libutils_headers \
