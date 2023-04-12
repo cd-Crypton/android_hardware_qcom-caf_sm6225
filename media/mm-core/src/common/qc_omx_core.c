@@ -51,7 +51,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <cutils/properties.h>
 
 #ifndef VIDC_STUB_HAL
-#include "../../../libplatformconfig/ConfigStore.h"
+#include "ConfigStore.h"
 #endif
 
 extern omx_core_cb_type core[];

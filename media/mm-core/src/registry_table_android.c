@@ -35,7 +35,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 *//*========================================================================*/
 
 
-#include "common/qc_omx_core.h"
+#include "qc_omx_core.h"
 
 omx_core_cb_type core[] =
 {
